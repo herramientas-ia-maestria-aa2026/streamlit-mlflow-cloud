@@ -1,1 +1,1 @@
-# streamlit-mlflow-cloud
+# streamlit-mlflow

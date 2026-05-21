@@ -9,11 +9,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Conexión al servidor MLflow
-dagshub.init(
-    repo_owner="reroes799",
-    repo_name="ejemplo02",
-    mlflow=True
-)
+# dagshub.init(
+#     repo_owner="reroes799",
+#     repo_name="ejemplo02",
+#     mlflow=True
+# )
+
+mlflow.set_tracking_uri("https://dagshub.com/reroes799/ejemplo02.mlflow")
 
 st.set_page_config(
     page_title="Predicción Bank Marketing",
